@@ -78,7 +78,7 @@ We can use it to logout an already authenticated user, this will invalidate the 
 <br><br><br>
 **Tasks API**
 <br><br><br>
-*GET /tasks
+*GET /tasks*
 <br><br><br>
 This will return a list with all the tasks registered in the "tasks" table (Authentication with an "admin" role required)
 <br><br><br>
@@ -90,7 +90,7 @@ If the user has an "user" role, it will evaluate if the user was the one who cre
 <br><br><br>
 If the user has an "admin" role, it will always return the task to him, notwithstanding if he was the one who created it or not.
 <br><br><br>
-*POST /tasks
+*POST /tasks*
 <br><br><br>
 We can send a request body with the properties of a task object to create and insert it in the "tasks" table as presented below (Authentication with an "user" or "admin" role required):
 <br><br><br>
@@ -141,7 +141,7 @@ If the user has an "admin" role, the task will always be deleted, notwithstandin
 <br><br><br>
 **Users API**
 <br><br><br>
-*GET /users
+*GET /users*
 <br><br><br>
 This will return a list with all the users registered in the "users" table (Authentication with an "admin" role required)
 <br><br><br>
